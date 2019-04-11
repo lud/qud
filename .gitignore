@@ -12,6 +12,7 @@ Desktop.ini
 
 # ignore Composer downloads
 /vendor/*
+/bin/*
 
 # keep some hiddens
 !.htaccess
