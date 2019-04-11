@@ -1,0 +1,4 @@
+suites:
+    braid_suite:
+        namespace: Agilap\Qud
+        psr4_prefix: Agilap\Qud

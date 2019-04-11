@@ -1,0 +1,28 @@
+{
+    "name": "agilap/qud",
+    "description": "A simple job queue",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ludovic Demblans",
+            "email": "ludovic@demblans.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/spot2": "^2.2"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require-dev": {
+       "phpspec/phpspec": "^4.0",
+        "behat/behat": "^3.5",
+        "symfony/var-dumper": "^4.2",
+        "beberlei/assert": "^3.2"
+    },
+
+    "autoload": {"psr-4": {"Agilap\\Qud\\": "src/"}}
+}
